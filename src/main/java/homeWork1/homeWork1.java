@@ -8,19 +8,19 @@ public class homeWork1 {
 
         System.out.println("Please enter your name");
         Scanner scanner = new Scanner(System.in);
-        String firstName = scanner.next();
+        String firstName = scanner.nextLine();
 
         System.out.println("Please enter last name");
-        String lastName = scanner.next();
+        String lastName = scanner.nextLine();
 
         System.out.println("Please enter your age");
-        int userAge = scanner.nextInt();
+        int userAge = Integer.parseInt(scanner.nextLine());
 
         System.out.println("Please tell us about your hobbies");
-        String hobbies = scanner.next();
+        String hobbies = scanner.nextLine();
 
         System.out.println("You are " + firstName + " " + lastName + " and your age is " + userAge +
-                "\nYour hobbies are: " + hobbies);
+                "." + "\nYour hobbies are: " + hobbies);
 
 
     }
