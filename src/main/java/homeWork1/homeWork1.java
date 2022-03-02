@@ -14,7 +14,7 @@ public class homeWork1 {
         String lastName = scanner.nextLine();
 
         System.out.println("Please enter your age");
-        int userAge = Integer.parseInt(scanner.nextLine());
+        byte userAge = Byte.parseByte(scanner.nextLine());
 
         System.out.println("Please tell us about your hobbies");
         String hobbies = scanner.nextLine();
